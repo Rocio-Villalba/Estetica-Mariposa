@@ -243,9 +243,9 @@ display: flex;
 } 
 /*Index*/
 
-    .central{
+.central{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 30% auto;
     gap: 6px;
     grid-template-areas: 
@@ -253,8 +253,9 @@ display: flex;
     " dia           noche ";
     padding: 0.5rem;
     font-family: 'Caveat', cursive;
-
-
+}
+.central h2{
+    font-size: 3rem;
 }
 
 .centralUno{
@@ -283,11 +284,12 @@ display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    background-color: #800055;
 }
 
 .centralDos img{
-    width: 85%;
-    height: 50%;
+    width: 65%;
+    height: 35%;
 }
 
 .centralDos p{
@@ -298,4 +300,16 @@ display: flex;
 
 .centralTres{
     grid-area: noche;
+}
+.centralTres p{
+    font-size: 2rem;
+}
+
+.imagenes{
+    display: flex;
+    
+}
+.imagenes img{
+    padding: 0.5rem;
+    width: 45%;
 }
