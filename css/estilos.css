@@ -252,6 +252,8 @@ display: flex;
     "limpieza      limpieza "
     " dia           noche ";
     padding: 0.5rem;
+    font-family: 'Caveat', cursive;
+
 
 }
 
@@ -271,7 +273,7 @@ display: flex;
     padding: 3rem;
     font-size: 2rem;
     text-align: center;
-    font-family: 'Caveat', cursive;
+  
 }
 
 .centralDos{
