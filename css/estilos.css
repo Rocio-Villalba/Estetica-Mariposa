@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 /*font-family: 'Marck Script', cursive; 
 font-family: 'Shrikhand', cursive;
 font-family: 'Reenie Beanie', cursive;
-font-family: 'Caveat', cursive;*/
+font-family: 'Caveat', cursive;
+font-family: 'Passion One', cursive;*/
 
 header{
     background-image: radial-gradient( circle 727.4px at 10% 20%, rgba(239,182,249,0.99) 47.2%, rgba(229,104,251,0.78) 64.9% );
@@ -52,7 +53,7 @@ footer {
     background-image: radial-gradient( circle 727.4px at 10% 20%, rgba(239,182,249,0.99) 47.2%, rgba(229,104,251,0.78) 64.9% );
     padding: 10px;
     font-size: 25px; 
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Passion One', cursive;
     color: white
      ;
 
