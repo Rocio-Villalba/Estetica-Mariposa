@@ -90,6 +90,10 @@ display: flex;
     text-align: center;
     font-family: 'Assistant', sans-serif;
 }
+.transformacion img{
+
+    transform:  translate(10px, 20px);
+}
 
 
 
@@ -264,7 +268,7 @@ display: flex;
     display: flex;
     align-items: center;
     padding: 2px;
-    background-color: rgba(137, 43, 226, 0.63);
+    
     
 }
 
@@ -285,7 +289,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: #800055;
+   
 }
 
 .centralDos img{
