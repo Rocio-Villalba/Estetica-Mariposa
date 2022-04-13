@@ -23,20 +23,13 @@ header img{
     width: 200px;
     height: 200px;
 }
-.menu{
-    display: flex;
-    font-size: 29px; 
-    font-family: 'Merienda', cursive;
-       
+
+
+.menu {font-family: 'Merienda', cursive;
+        background-color: rgba(239,182,249,0.99);
 
 }
-.menu li {
-    list-style: none;
-    padding: 10px;
-}
-.menu li a{
-    text-decoration: none;
-}
+
 
 
 main{
