@@ -24,13 +24,10 @@ header img{
     height: 200px;
 }
 
-
 .menu {font-family: 'Merienda', cursive;
         background-color: rgba(239,182,249,0.99);
 
 }
-
-
 
 main{
     background-color: rgba(137, 43, 226, 0.185);
@@ -79,7 +76,7 @@ display: flex;
 }
 
 .seccionTipos p{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-family: 'Assistant', sans-serif;
 }
@@ -185,11 +182,11 @@ display: flex;
   
   .productos article img {
     width: 95%;
-    height: 70%;
+    height: 65%;
   }
   .productos article p {
    padding: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Assistant', sans-serif;
   }
   
@@ -215,7 +212,7 @@ display: flex;
        
       } 
       .productos article p {
-        font-size: 15px;
+        font-size: 13px;
         padding: 5px;
       }
       header img{
@@ -228,6 +225,7 @@ display: flex;
 
     h1 {
         font-size: 30px;
+        
     }
     footer img{
         width: 100px;
@@ -244,16 +242,17 @@ display: flex;
 .central{
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 30% auto;
-    gap: 6px;
+    grid-template-rows: 35% auto;
+    gap: 10px;
     grid-template-areas: 
     "limpieza      limpieza "
     " dia           noche ";
-    padding: 0.5rem;
+    padding: 0.7rem;
     font-family: 'Caveat', cursive;
 }
 .central h2{
     font-size: 3rem;
+   
 }
 
 .centralUno{
@@ -261,15 +260,14 @@ display: flex;
     display: flex;
     align-items: center;
     padding: 2px;
-    
-    
+    ;
 }
 
 .centralUno img{
     padding: 1rem;
 }
 .centralUno p{
-    padding: 3rem;
+    padding: 5rem;
     font-size: 2rem;
     text-align: center;
   
@@ -281,7 +279,7 @@ display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 3rem;
    
 }
 
@@ -310,4 +308,8 @@ display: flex;
 .imagenes img{
     padding: 0.5rem;
     width: 45%;
+}
+.carrusel{
+    padding: 3px;
+    margin: 3px;
 }
