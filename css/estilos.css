@@ -1,315 +1,284 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 /*font-family: 'Marck Script', cursive; 
 font-family: 'Shrikhand', cursive;
 font-family: 'Reenie Beanie', cursive;
 font-family: 'Caveat', cursive;
-font-family: 'Passion One', cursive;*/
+font-family: 'Passion One', cursive;
+font-family: 'Assistant', sans-serif;*/
 
-header{
-    background-image: radial-gradient( circle 727.4px at 10% 20%, rgba(239,182,249,0.99) 47.2%, rgba(229,104,251,0.78) 64.9% );
-    display: flex ;
-    align-items: center;
-    justify-content: space-evenly; 
-    padding: 10px;
+/*HEADER*/
+
+header {
+  background-image: radial-gradient(
+    circle 727.4px at 10% 20%,
+    rgba(239, 182, 249, 0.99) 47.2%,
+    rgba(229, 104, 251, 0.78) 64.9%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
 }
 
-header img{
-    width: 200px;
-    height: 200px;
+header img {
+  width: 200px;
+  height: 200px;
 }
 
-.menu {font-family: 'Merienda', cursive;
-        background-color: rgba(239,182,249,0.99);
-
+.menu {
+  font-family: "Merienda", cursive;
+  background-color: rgba(239, 182, 249, 0.99);
+}
+.inicio {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.inicio:hover {
+  background-color: rgba(229, 104, 251, 0.78);
+  color: white;
 }
 
-main{
-    background-color: rgba(137, 43, 226, 0.185);
-   
-
-}
-
+/*FOOTER*/
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-image: radial-gradient( circle 727.4px at 10% 20%, rgba(239,182,249,0.99) 47.2%, rgba(229,104,251,0.78) 64.9% );
-    padding: 10px;
-    font-size: 25px; 
-    font-family: 'Passion One', cursive;
-    color: white
-     ;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: radial-gradient(
+    circle 727.4px at 10% 20%,
+    rgba(239, 182, 249, 0.99) 47.2%,
+    rgba(229, 104, 251, 0.78) 64.9%
+  );
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Passion One", cursive;
+  color: white;
 }
-footer img{
-    width: 250px;
-    height: 250px;
-    
+footer img {
+  width: 250px;
+  height: 250px;
 }
-footer ul li a{
-    text-decoration: none;
-
+footer ul li a {
+  text-decoration: none;
 }
-footer ul li{
-    list-style: none;
-}   
-h1{
-    font-family: 'Marck Script', cursive;
-    text-align: center; 
-    font-size: 50px;
-    text-decoration: underline;
-
-}
-.seccionTipos{
-display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+footer ul li {
+  list-style: none;
 }
 
-.seccionTipos p{
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-}
-.transformacion img{
-
-    transform:  translate(10px, 20px);
-}
-
-
-
-.seccionContacto{
-    display: flex;
-    padding: 15px; align-items: center;
-    justify-content: space-evenly;
-}
-.seccionContacto img{
-    width: 500px;
-    height: 500px;
-
-}
-.formulario{
-   display: flex;
-   flex-direction: column;
-    font-size: 25px;
-    font-family: 'Shrikhand', cursive;
-
-}
-
-
-.problemas {
-    font-size: 35px; 
-    display: grid ;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1rem;
-    grid-template-areas:
-    "acne melasma"
-    "manchas cicatrices";
-    padding: 10px;font-family: 'Reenie Beanie', cursive; 
-
-   
-
-}
-.problemasUno{
-    grid-area:acne ;
-    border-radius: 50px;
-    border:white double 0.5rem;
-    padding: 10px;
-}
-.problemasDos{
-    grid-area: melasma;
-    border-radius: 50px;
-    border:white double 0.5rem;
-    padding: 10px;
-}
-.problemasTres{
-    grid-area: manchas;
-    border-radius: 50px;
-    border:white double 0.5rem;
-    padding: 10px;
-
-}
-.problemasCuatro{
-    grid-area: cicatrices;
-    border-radius: 50px;
-    border:white double 0.5rem;
-    padding: 10px;
-}
-.problemas h3{
-    text-decoration: underline;
-    text-align: center;
-    font-size: 40px;
-    color:#800055 ;
-
-}
-.problemas p{
-    color: #800055;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-
-.productos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    padding: 6px;
-  }
-  
-  .productos article {
-    margin: 5px;
-    width: 95%;
-    height: 600px;
-    border-radius: 10px;
-    border: 2px double white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .productos article img {
-    width: 95%;
-    height: 65%;
-  }
-  .productos article p {
-   padding: 5px;
-    font-size: 18px;
-    font-family: 'Assistant', sans-serif;
-  }
-  
-  
-  @media (max-width: 760px) {
-    .productos {
-      border: 5px solid green;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-    }
-    .productos article p {
-      font-size: 15px;
-      padding: 5px;
-    }
-  }
-
-  @media (max-width:480px) {
-    .productos {
-        border: 5px solid blue;
-        display: flex;
-      flex-direction: column;
-       
-      } 
-      .productos article p {
-        font-size: 13px;
-        padding: 5px;
-      }
-      header img{
-        width: 100px;
-        height: 100px;
-    }
-    .menu{
-        font-size: 10px; 
-           }
-
-    h1 {
-        font-size: 30px;
-        
-    }
-    footer img{
-        width: 100px;
-        height: 100px;
-        
-    }
-    footer {
-        padding: 8px;
-        font-size: 13px; 
-        }
-} 
 /*Index*/
 
-.central{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 35% auto;
-    gap: 10px;
-    grid-template-areas: 
+main {
+    background-color: rgba(137, 43, 226, 0.185);
+  }
+  main h1 {
+    font-family: "Marck Script", cursive;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    padding: 2rem;
+  }
+
+.central {
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: 30% auto;
+  grid-template-areas:
     "limpieza      limpieza "
     " dia           noche ";
-    padding: 0.7rem;
-    font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
+  padding: 1rem;
 }
-.central h2{
-    font-size: 3rem;
-   
-}
-
-.centralUno{
-    grid-area:limpieza;
-    display: flex;
-    align-items: center;
-    padding: 2px;
-    ;
+.central h2 {
+  font-size: 3rem;
 }
 
-.centralUno img{
-    padding: 1rem;
-}
-.centralUno p{
-    padding: 5rem;
-    font-size: 2rem;
-    text-align: center;
-  
+.centralUno {
+  grid-area: limpieza;
+  display: flex;
+
+  padding: 2px;
 }
 
-.centralDos{
-    grid-area: dia;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
-   
+.centralUno img {
+  width: 41rem;
+  height: 35rem;
+}
+.centralUno p {
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.centralDos img{
-    width: 65%;
-    height: 35%;
+.centralDos {
+  grid-area: dia;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.centralDos p{
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Caveat', cursive;
+.centralDos img {
+  width: 79%;
+  height: 35%;
 }
 
-.centralTres{
-    grid-area: noche;
-}
-.centralTres p{
-    font-size: 2rem;
+.centralDos p {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  padding: 0.8rem;
 }
 
-.imagenes{
-    display: flex;
-    
+.centralTres {
+  grid-area: noche;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.imagenes img{
-    padding: 0.5rem;
-    width: 45%;
+
+.centralTres p {
+  font-size: 2rem;
+  padding: 0.8rem;
 }
-.carrusel{
-    padding: 3px;
-    margin: 3px;
+
+.imagenes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.imagenes img {
+  width: 45%;
+}
+.carrusel {
+  padding: 2px;
+  margin: 2px;
+}
+
+/*TIPOS*/
+
+.seccionTipos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.seccionTipos p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+}
+.transformacion img {
+  transform: translate(10px, 20px);
+}
+
+/*CONTACTO*/
+
+.seccionContacto {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.seccionContacto img {
+  width: 500px;
+  height: 500px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Shrikhand", cursive;
+}
+
+/*PROBLEMATICAS*/
+
+.problemas {
+  font-size: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  grid-template-areas:
+    "acne melasma"
+    "manchas cicatrices";
+  padding: 10px;
+  font-family: "Reenie Beanie", cursive;
+}
+.problemasUno {
+  grid-area: acne;
+  border-radius: 50px;
+  border: white double 0.5rem;
+  padding: 10px;
+}
+.problemasDos {
+  grid-area: melasma;
+  border-radius: 50px;
+  border: white double 0.5rem;
+  padding: 10px;
+}
+.problemasTres {
+  grid-area: manchas;
+  border-radius: 50px;
+  border: white double 0.5rem;
+  padding: 10px;
+}
+.problemasCuatro {
+  grid-area: cicatrices;
+  border-radius: 50px;
+  border: white double 0.5rem;
+  padding: 10px;
+}
+.problemas h3 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 40px;
+  color: #800055;
+}
+.problemas p {
+  color: #800055;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+/*RECOMENDADOS*/
+
+.productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding: 6px;
+}
+
+.productos article {
+  margin: 5px;
+  width: 95%;
+  height: 600px;
+  border-radius: 10px;
+  border: 2px double white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.productos article img {
+  width: 95%;
+  height: 65%;
+}
+.productos article p {
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Assistant", sans-serif;
 }
