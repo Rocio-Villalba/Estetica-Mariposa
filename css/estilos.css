@@ -33,11 +33,15 @@ header img {
 .menu {
   font-family: "Merienda", cursive;
   background-color: rgba(239, 182, 249, 0.99);
+  border-radius: 10px;
 }
 .inicio {
   font-size: 20px;
   color: black;
   text-decoration: none;
+  padding: 1rem;
+  border-radius: 10px;
+
 }
 .inicio:hover {
   background-color: rgba(229, 104, 251, 0.78);
@@ -83,8 +87,7 @@ main {
     text-decoration: underline;
     padding: 2rem;
   }
-
-.central {
+  .central {
   display: grid;
   grid-template-columns: 40% auto;
   grid-template-rows: 30% auto;
@@ -93,14 +96,21 @@ main {
     " dia           noche ";
   font-family: "Caveat", cursive;
   padding: 1rem;
+  text-align: center;
 }
-.central {
-  display: flex;
-  flex-direction: column;
-  
+.central p {
+  font-family: "Assistant", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  margin: 1rem;
+ 
 }
 .central h2 {
   font-size: 3rem;
+  text-decoration: underline;
+}
+.centralDos h2{
+  padding-bottom: 2.5rem;
 }
 
 .centralUno {
@@ -110,59 +120,27 @@ main {
   border:50px ;
   border: whitesmoke solid 0.3rem;
 }
-
-.centralUno img {
-  width: 105%;
-  height: 35%;
-}
-.centralUno p {
-  font-size: 1.5rem;
-  font-family: "Assistant", sans-serif;
-  padding: 0.8rem;
-  margin: 1rem;
- 
-}
-
 .centralDos {
   grid-area: dia;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  padding: 2px;
+  padding: 3px;
   border:50px ;
   border: whitesmoke solid 0.3rem;
 }
-
-.centralDos img {
-  width: 30%;
-  height: 35%;
-}
-
-.centralDos p {
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: "Assistant", sans-serif;
-  padding: 2rem;
-  margin: 1rem;
-}
-
 .centralTres {
   grid-area: noche;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding: 2px;
   border:50px ;
   border: whitesmoke solid 0.3rem;
+  padding-bottom: 2.3rem;
 }
-
-.centralTres p {
-  font-size: 1.5rem;
-  padding: 2rem;
-  font-family: "Assistant", sans-serif;
-}
-
 .imagenes {
   display: flex;
   justify-content: space-evenly;
@@ -190,6 +168,17 @@ main {
   text-align: center;
   font-family: "Assistant", sans-serif;
 }
+.seccionTipos img:hover{
+  width: 70rem;
+  border-radius: 20px;
+  background-image: radial-gradient(
+    circle 727.4px at 10% 20%,
+    rgba(239, 182, 249, 0.99) 47.2%,
+    rgba(229, 104, 251, 0.78) 64.9%
+  );
+  padding: 2rem;
+
+}
 .transformacion img {
   transform: translate(10px, 20px);
 }
@@ -212,7 +201,6 @@ main {
   font-size: 25px;
   font-family: "Shrikhand", cursive;
 }
-
 /*PROBLEMATICAS*/
 
 .problemas {
@@ -233,6 +221,15 @@ main {
   border: white double 0.5rem;
   padding: 10px;
 }
+.problemas div:hover{
+  background-image: radial-gradient(
+    circle 727.4px at 10% 20%,
+    rgba(239, 182, 249, 0.99) 47.2%,
+    rgba(229, 104, 251, 0.78) 64.9%);
+
+}
+
+
 .problemasDos {
   grid-area: melasma;
   border-radius: 50px;
@@ -326,6 +323,14 @@ main {
 
 }
 @media (max-width: 480px){
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  #menuMobile{
+    margin-right: 15rem;
+    
+  }
   .logo{
     width: 40%;
     height: 40%;
@@ -333,9 +338,13 @@ main {
   .animate__animated{
     font-size: 35px;
   }
-
+  .central{
+    flex-direction: column;
+    display: flex;
+  }
   .centralUno {
-    flex-direction: column;}
+    flex-direction: column;
+  }
 
   .centralUno p{
     padding: 3px;
@@ -382,6 +391,39 @@ main {
     width: 200px;
     height: 200px;
   }
+  .productos {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    justify-content: space-between;
+    font-size: 15px;
+  }
+  footer img {
+    width: 27%;
+    height: 27%;
+  }
+  .problemas {
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+  }
+  .seccionContacto {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .seccionContacto img {
+    width: 100%;
+    height: 100%;
+  }
+  .formulario {
+    font-size: 15px;
+    width: 100%;
+    
+  }
 }
+
 
 
