@@ -1,0 +1,26 @@
+/*FOOTER*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: $boxColor;
+    padding: 10px;
+    font-size: 25px;
+    font-family:$boxFamily2;
+    color: white;
+    img {
+      width: 250px;
+      height: 250px;
+    }
+    ul li {
+      list-style: none;
+      a {
+          text-decoration: none;
+        }
+    }
+    .breadcrumb {
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      }
+}

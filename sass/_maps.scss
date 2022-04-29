@@ -1,0 +1,27 @@
+
+$estiloRed:( 
+  ancho:49px,
+  alto:49px,
+  margen: 0.5rem,
+  centrado:center,
+);
+.redes li img {
+  margin: map-get($map:$estiloRed , $key: margen);
+  width:map-get($map: $estiloRed, $key:ancho );
+  height: map-get($map:$estiloRed , $key:alto );
+  text-align: map-get($map:$estiloRed , $key: centrado );
+ 
+}
+@mixin flex-row-center{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  
+  }
+  .box {
+    @include flex-row-center;
+    font-size: 30px;
+    padding: 10rem;
+    margin:2rem;
+   }
+ 
