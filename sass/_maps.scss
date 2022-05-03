@@ -18,10 +18,5 @@ $estiloRed:(
   justify-content:center;
   
   }
-  .box {
-    @include flex-row-center;
-    font-size: 30px;
-    padding: 10rem;
-    margin:2rem;
-   }
- 
+
+  
