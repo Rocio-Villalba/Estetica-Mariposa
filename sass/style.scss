@@ -276,7 +276,7 @@ main {
       height: 40%;
     }
     .animate__animated {
-      font-size: 35px;
+      font-size: 18px;
     }
   }
   .carrusel img {
@@ -309,7 +309,7 @@ main {
       width: 70%;
     }
     h2 {
-      font-size: 45px;
+      font-size: 15px;
     }
   }
   .centralTres {
@@ -324,7 +324,7 @@ main {
       height: 100%;
     }
     h2 {
-      font-size: 45px;
+      font-size: 20px;
     }
     .imagenes {
       width: 350px;
@@ -334,7 +334,11 @@ main {
   .productos {
     display: flex;
     flex-direction: column;
+    .animate__animated {
+      font-size: 40px;
+    }
   }
+
   footer {
     justify-content: space-between;
     font-size: 15px;
@@ -382,7 +386,7 @@ main {
       width: 95%;
     }
     p {
-      font-size: 20px;
+      font-size: 22px;
       text-align: center;
     }
   }
@@ -391,6 +395,6 @@ main {
     flex-direction: column;
   }
   .seccionContacto h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 }

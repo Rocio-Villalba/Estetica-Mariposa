@@ -150,6 +150,7 @@ main .central {
 main .central h2 {
   font-size: 3rem;
   text-decoration: underline;
+  font-family: "Patrick Hand", cursive;
 }
 
 main .central p {
@@ -264,7 +265,7 @@ main .central .centralTres .imagenes img {
 }
 
 .seccionTipos p {
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
   font-family: "Patrick Hand", cursive;
 }
@@ -286,15 +287,16 @@ main .central .centralTres .imagenes img {
   padding: 1rem;
   text-align: center;
   margin: 1rem;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Patrick Hand", cursive;
 }
 
 .seccionDos .seccionDos__box-uno {
-  font-family: "Shrikhand", cursive;
+  font-family: "Patrick Hand", cursive;
 }
 
 .seccionDos .seccionDos__box-dos {
-  font-family: "Indie Flower", cursive;
+  font-family: "Patrick Hand", cursive;
   font-size: 25px;
 }
 
@@ -324,8 +326,8 @@ main .central .centralTres .imagenes img {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-size: 1.2rem;
-  font-family: "Shrikhand", cursive;
+  font-size: 1.7rem;
+  font-family: "Patrick Hand", cursive;
 }
 
 /*PROBLEMATICAS*/
@@ -445,7 +447,7 @@ main .central .centralTres .imagenes img {
 
 .productos article p {
   padding: 5px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Patrick Hand", cursive;
 }
 
@@ -467,7 +469,7 @@ main .central .centralTres .imagenes img {
     height: 40%;
   }
   header .animate__animated {
-    font-size: 35px;
+    font-size: 30px;
   }
   .carrusel img {
     height: 350px;
@@ -550,6 +552,9 @@ main .central .centralTres .imagenes img {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .animate__animated {
+    font-size: 45px;
+  }
   footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -626,7 +631,7 @@ main .central .centralTres .imagenes img {
     width: 95%;
   }
   .seccionTipos p {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
   }
   .seccionDos {
@@ -639,7 +644,7 @@ main .central .centralTres .imagenes img {
     flex-direction: column;
   }
   .seccionContacto h1 {
-    font-size: 3.5rem;
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
